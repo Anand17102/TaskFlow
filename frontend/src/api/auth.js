@@ -1,7 +1,7 @@
 import axios from "axios";
 import api from "./axios";
 
-const API_BASE_URL = "http://127.0.0.1:8000/api/";
+const API_BASE_URL = "https://taskflow-ioqy.onrender.com/api/";
 
 export const loginUser = async (email, password) => {
   const response = await axios.post(`${API_BASE_URL}auth/login/`, {

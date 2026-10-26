@@ -3,7 +3,7 @@ import { AppLayout } from "./components/layout/AppLayout";
 import { TaskFlowProvider } from "./context/TaskFlowContext";
 import { DashboardPage } from "./pages/DashboardPage";
 import { Register } from "./pages/RegisterPage";
-import { LoginPage } from "./pages/loginPage";
+import { LoginPage } from "./pages/LoginPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { ProfilePage } from "./pages/ProfilePage";
 import { SpaceEditorPage } from "./pages/SpaceEditorPage";
